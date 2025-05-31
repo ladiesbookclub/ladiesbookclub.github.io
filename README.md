@@ -14,6 +14,10 @@ If there's a deployment problem and you get the error `ProcessError: fatal: a br
 rm -rf node_modules/.cache/gh-pages
 ```
 
+# Styling
+Text: #8e2e19
+
+# Resources
 <details>
     <summary># Getting Started with Create React App</summary>
     This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

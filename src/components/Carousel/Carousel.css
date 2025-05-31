@@ -1,0 +1,13 @@
+.carousel-container {
+  width: 100vw;
+}
+
+.slick-next {
+  right: 25px;
+  z-index: 100;
+}
+
+.slick-prev {
+  left: 25px;
+  z-index: 100;
+}

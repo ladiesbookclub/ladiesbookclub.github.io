@@ -1,0 +1,19 @@
+.drop-cap-wrapper {
+  display: flex;
+  align-items: flex-start; /* aligns tops */
+  max-width: 600px;
+}
+
+.drop-cap {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 0.5rem;
+}
+
+.drop-cap-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0;
+}

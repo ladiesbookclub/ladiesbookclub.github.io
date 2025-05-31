@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  color: #633411;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  padding: 0.675rem;
+}
+
+header > h1 {
+  height: 10%;
+  margin-top: 0.675rem;
+  padding-left: 0.675rem;
+  font-family: "Over the Rainbow", cursive;
+  font-size: 1.5rem;
+}
+
+.page-contents {
+  height: calc(100svh - 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
