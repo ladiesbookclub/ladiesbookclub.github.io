@@ -1,13 +1,16 @@
 import "./BookCover.css";
 
 const BookCover = ({ props }: any) => {
+  const adjustBrightness =
+    props.shouldFade && props.endDate < new Date() && "brightness05";
+
   return (
     <div className="BookCover">
       <h2>{props.headerText}</h2>
       {props.coverFileName ? (
         <figure>
           <img
-            className={`cover ${props.appendClassName ?? ""}`}
+            className={`cover ${props.appendClassName ?? ""} ${adjustBrightness}`}
             src={`/assets/book_covers/${props.coverFileName}`}
             alt={props.fallbackText}
             onError={(e: any) => {
